@@ -1,0 +1,15 @@
+{
+  "name": "slideshow",
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/back.png",
+    "images/back.svg",
+    "images/forward.png",
+    "images/forward.svg"
+  ],
+  "development": {
+    "nib-components/slideshow": "*"
+  }
+}
