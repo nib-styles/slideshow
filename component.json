@@ -3,6 +3,9 @@
   "styles": [
     "index.css"
   ],
+  "files": [
+    "index.scss"
+  ],
   "images": [
     "images/back.png",
     "images/back.svg",
