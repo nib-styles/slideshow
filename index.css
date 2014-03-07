@@ -70,7 +70,6 @@
   background-image: url("images/back.svg"); }
 
 .no-svg .slideshow__previous {
-  width: 47px;
   background-image: url("images/back.png"); }
 
 .slideshow__indicators {
