@@ -13,6 +13,6 @@
     "images/forward.svg"
   ],
   "development": {
-    "nib-components/slideshow": "*"
+    "nib-components/slideshow": "ie8rewrite"
   }
 }
