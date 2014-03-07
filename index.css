@@ -1,6 +1,11 @@
 .slideshow {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  /*
+   * Hack to prevent render issues on Chrome and Safari
+   * @see http://stackoverflow.com/questions/7947385/hovering-over-css-transition-in-safari-lightens-certain-font-color
+   */
+  -webkit-transform: translate3d(0, 0, 0); }
 
 .slideshow__slide {
   position: absolute;
@@ -18,13 +23,13 @@
 
 .slideshow__slide.is-current {
   opacity: 1;
-  transform: translateX(0); }
+  transform: translate3d(0, 0, 0); }
 
 .slideshow__slide.is-next {
-  transform: translateX(100%); }
+  transform: translate3d(100%, 0, 0); }
 
 .slideshow__slide.is-previous {
-  transform: translateX(-100%); }
+  transform: translate3d(-100%, 0, 0); }
 
 .no-opacity .slideshow__slide {
   display: none; }
