@@ -10,7 +10,7 @@
 
 $component-path: null !default;
 
-$image-path: null !default;
+$image-path: null;
 @if $component-path == null {
   $image-path: "images" !default;
 }
